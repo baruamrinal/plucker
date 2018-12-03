@@ -1,5 +1,5 @@
 # plucker
-A google chrome extension for listing live docker instances
+A google chrome extension for listing live docker instances. The name plucker says that it's a pluggin on docker.
 
 
 # prerequisite
