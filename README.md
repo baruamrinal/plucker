@@ -1,5 +1,5 @@
 # plucker
-A google chrome extension for listing live docker instances. The name plucker says that it's a pluggin on docker.
+A google chrome extension for listing live docker instances. The name plucker says that it's a plugin on docker.
 
 
 # prerequisite
@@ -30,7 +30,7 @@ var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://<your-api-location>/psapi.php", true);
 ```
 
-- Allow API domain for pluggin
+- Allow API domain for plugin
 Next thing is to allow your API domain in plugin manifest.json
 ```
 "permissions": [
