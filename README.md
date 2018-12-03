@@ -31,5 +31,11 @@ xhr.open("GET", "http://<your-api-location>/psapi.php", true);
 ```
 
 - Allow API domain for pluggin
-Next thing is to allow your API domain in plugin menifest.json
+Next thing is to allow your API domain in plugin manifest.json
+```
+"permissions": [
+   "activeTab",
+   "http://<your-api-domain>.com"
+   ]
+```
 
