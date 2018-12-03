@@ -11,6 +11,6 @@
   },
   "permissions": [
    "activeTab",
-   "http://<your-api-domain>"
+   "http://<your-api-domain>.com"
    ]
 }

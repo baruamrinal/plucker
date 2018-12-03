@@ -27,5 +27,9 @@ Second step is to configure API endpoint in your XMLHttpRequest. In our case, le
 
 ```
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://<your-service-location>/psapi.php", true);
+xhr.open("GET", "http://<your-api-location>/psapi.php", true);
 ```
+
+- Allow API domain for pluggin
+Next thing is to allow your API domain in plugin menifest.json
+

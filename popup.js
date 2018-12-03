@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://dockerv2.simplilearn.com/docker/psapi.php", true);
+    xhr.open("GET", "http://<your-api-location>/psapi.php", true);
     xhr.onreadystatechange = function() {
       if (xhr.readyState == 4) {
         
