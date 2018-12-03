@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "slocker",
+  "name": "plucker",
   "description": "This extension will provide docker instance list",
   "version": "1.0",
 
@@ -11,6 +11,6 @@
   },
   "permissions": [
    "activeTab",
-   "http://dockerv2.simplilearn.com/*"
+   "http://<your-api-domain>"
    ]
 }
